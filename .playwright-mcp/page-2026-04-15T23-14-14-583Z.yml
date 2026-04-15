@@ -1,0 +1,117 @@
+- generic [ref=e1]:
+  - generic [ref=e3]:
+    - generic [ref=e5]:
+      - heading "React Component Generator" [level=1] [ref=e7]
+      - generic [ref=e9]:
+        - generic [ref=e53]:
+          - generic [ref=e54]:
+            - generic [ref=e57]: Create a user profile card component
+            - img [ref=e60]
+          - generic [ref=e87]:
+            - img [ref=e90]
+            - generic [ref=e95]:
+              - generic [ref=e96]:
+                - img [ref=e97]
+                - img [ref=e101]
+                - generic [ref=e104]: Creating App.jsx
+              - separator [ref=e105]
+              - generic [ref=e106]:
+                - img [ref=e107]
+                - img [ref=e111]
+                - generic [ref=e114]: Creating components/UserProfileCard.jsx
+              - separator [ref=e115]
+              - generic [ref=e116]:
+                - paragraph [ref=e117]: "Done! Created a user profile card component with:"
+                - list [ref=e118]:
+                  - listitem [ref=e119]: Profile image with circular avatar
+                  - listitem [ref=e120]: Name, title, and location
+                  - listitem [ref=e121]: Bio section
+                  - listitem [ref=e122]: Followers/Following stats
+                  - listitem [ref=e123]: Follow and Message action buttons
+                  - listitem [ref=e124]: Gradient header background
+                  - listitem [ref=e125]: Hover effects and smooth transitions
+                - paragraph [ref=e126]: The component accepts customizable props for all content fields.
+        - generic [ref=e19]:
+          - textbox "Describe the React component you want to create..." [ref=e20]
+          - button [disabled] [ref=e21]:
+            - img [ref=e22]
+    - separator [ref=e25]
+    - generic [ref=e27]:
+      - generic [ref=e28]:
+        - tablist [ref=e30]:
+          - tab "Preview" [ref=e31]
+          - tab "Code" [active] [selected] [ref=e32]
+        - generic [ref=e33]:
+          - button "Sign In" [ref=e34]
+          - button "Sign Up" [ref=e35]
+      - generic [ref=e127]:
+        - generic [ref=e133]:
+          - generic [ref=e134]:
+            - generic [ref=e135] [cursor=pointer]:
+              - img [ref=e136]
+              - img [ref=e138]
+              - generic [ref=e140]: components
+            - generic [ref=e143] [cursor=pointer]:
+              - img [ref=e144]
+              - generic [ref=e149]: UserProfileCard.jsx
+          - generic [ref=e151] [cursor=pointer]:
+            - img [ref=e152]
+            - generic [ref=e157]: App.jsx
+        - separator [ref=e158]
+        - code [ref=e163]:
+          - generic [ref=e164]:
+            - generic [ref=e166]:
+              - generic [ref=e169]: "1"
+              - generic [ref=e173]: "2"
+              - generic [ref=e174]:
+                - generic [ref=e175] [cursor=pointer]: 
+                - generic [ref=e176]: "3"
+              - generic [ref=e177]:
+                - generic [ref=e178] [cursor=pointer]: 
+                - generic [ref=e179]: "4"
+              - generic [ref=e180]:
+                - generic [ref=e181] [cursor=pointer]: 
+                - generic [ref=e182]: "5"
+              - generic [ref=e185]:
+                - generic [ref=e186] [cursor=pointer]: 
+                - generic [ref=e187]: "6"
+              - generic [ref=e189]: "7"
+              - generic [ref=e191]: "8"
+              - generic [ref=e193]: "9"
+              - generic [ref=e196]: "10"
+              - generic [ref=e200]: "11"
+              - generic [ref=e202]: "12"
+              - generic [ref=e204]: "13"
+              - generic [ref=e206]: "14"
+              - generic [ref=e208]: "15"
+              - generic [ref=e210]: "16"
+              - generic [ref=e212]: "17"
+              - generic [ref=e214]: "18"
+            - generic [ref=e298]:
+              - generic [ref=e300]: import UserProfileCard from '@/components/
+              - generic [ref=e302]: UserProfileCard';
+              - generic [ref=e305]: "export default function App() {"
+              - generic [ref=e307]: return (
+              - generic [ref=e309]: <div className="min-h-screen bg-gradient-to-br
+              - generic [ref=e311]: from-blue-50 to-indigo-100 flex items-center
+              - generic [ref=e313]: justify-center p-4">
+              - generic [ref=e315]: <UserProfileCard
+              - generic [ref=e317]: name="Sarah Anderson"
+              - generic [ref=e319]: title="Product Designer"
+              - generic [ref=e321]: bio="Passionate about creating beautiful and
+              - generic [ref=e323]: intuitive user experiences"
+              - generic [ref=e325]: image="https://images.unsplash.com/
+              - generic [ref=e327]: photo-1494790108377-be9c29b29330?w=400&h=400&
+              - generic [ref=e329]: fit=crop"
+              - generic [ref=e331]: location="San Francisco, CA"
+              - generic [ref=e333]: followers="2.4K"
+              - generic [ref=e335]: following="1.2K"
+              - generic [ref=e337]: />
+              - generic [ref=e339]: </div>
+              - generic [ref=e341]: );
+              - generic [ref=e343]: "}"
+            - textbox "Editor content" [ref=e346]
+  - alert [ref=e47]
+  - generic [ref=e347]:
+    - alert
+    - alert
